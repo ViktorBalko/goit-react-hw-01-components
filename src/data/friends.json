@@ -1,0 +1,32 @@
+[
+  {
+    "avatar": "https://cdn-icons-png.flaticon.com/512/4228/4228177.png",
+    "name": "Yokkalo Mikkalo",
+    "isOnline": true,
+    "id": 1812
+  },
+  {
+    "avatar": "https://cdn-icons-png.flaticon.com/512/3540/3540784.png",
+    "name": "JSON Statham",
+    "isOnline": false,
+    "id": 1714
+  },
+  {
+    "avatar": "https://cdn-icons-png.flaticon.com/512/508/508316.png",
+    "name": "Walter Heisenberg",
+    "isOnline": true,
+    "id": 1137
+  },
+  {
+    "avatar": "https://cdn-icons-png.flaticon.com/512/2716/2716652.png",
+    "name": "Sub Zero",
+    "isOnline": true,
+    "id": 1213
+  },
+  {
+    "avatar": "https://cdn-icons-png.flaticon.com/512/924/924874.png",
+    "name": "Paul Carambol",
+    "isOnline": false,
+    "id": 1284
+  }
+]
