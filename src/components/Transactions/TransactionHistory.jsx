@@ -1,7 +1,7 @@
 import PropTypes from "prop-types"
 import styles from "./Transactions.module.css"
 
-export const TransactionHistory = ({ items }) => {
+export default function TransactionHistory({ items }) {
     return (
         <table className= {styles.transactionHistory}>
   <thead>
@@ -37,4 +37,4 @@ TransactionHistory.propTypes = {
 };
 
 
-export default TransactionHistory 
+// export default TransactionHistory 

@@ -1,15 +1,15 @@
 import PropTypes from "prop-types"
 import styles from "./FriendList.module.css"
 
-const FriendsListItem = ({ avatar, name, isOnline }) => {
+export default function FriendsListItem({ avatar, name, isOnline }) {
   return (
     <li className={styles.item}>
       <span
         className={styles.status}
         style={
           isOnline
-            ? { backgroundColor: '#3ABF5B' }
-            : { backgroundColor: '#E34E4E' }
+            ? { backgroundColor: 'rgb(2 42 7)' }
+            : { backgroundColor: 'rgb(50 2 2)' }
         }
       >
       </span>
@@ -25,4 +25,4 @@ FriendsListItem.propTypes = {
     isOnline: PropTypes.bool.isRequired,
 };
 
-export default FriendsListItem
+// export default FriendsListItem

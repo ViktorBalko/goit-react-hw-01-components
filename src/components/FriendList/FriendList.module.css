@@ -1,5 +1,6 @@
 .friendList {
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin: 20px auto;
     width: 330px;
     padding-left: 0;
 }
@@ -15,10 +16,12 @@
     align-items: center;
     cursor: pointer;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid #38588c4d;
 }
 
 .item:hover {
     transform: scale(1.1);
+    background: linear-gradient(#6c0301b9, black 50%, #6c0301b9);
 }
 
 .item:not(:last-child) {
@@ -31,6 +34,7 @@
     height: 20px;
     border-radius: 50px;
     margin-right: 10px;
+    border: 1px solid rgba(103, 101, 101, 0.838);
 }
 
 .avatar {

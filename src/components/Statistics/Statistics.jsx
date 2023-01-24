@@ -1,7 +1,7 @@
 import PropTypes from "prop-types"
 import css from "./Statistics.module.css"
 
-const Statistics = ({ title, stats }) => {
+export default function Statistics({ title, stats }) {
     return (
         <section className = {css.statistics} >
             {{ title } && <h2 className={css.title}>{title}</h2>}
@@ -32,4 +32,4 @@ Statistics.propTypes = {
 
 
 
-export default Statistics
+// export default Statistics

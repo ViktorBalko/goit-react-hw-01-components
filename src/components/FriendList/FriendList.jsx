@@ -3,7 +3,7 @@ import styles from "./FriendList.module.css"
 import FriendsListItem from "./FriendListItem.jsx"
 
 
-const FriendList = ({ friends }) => {
+export default function FriendList({ friends }) {
   return (
     <ul className={styles.friendList}>
       {friends.map(({ id, avatar, name, isOnline }) => (
@@ -28,4 +28,4 @@ FriendList.propTypes = {
 
 
 
-export default FriendList
+// export default FriendList
