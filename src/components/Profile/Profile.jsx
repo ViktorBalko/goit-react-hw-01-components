@@ -9,6 +9,7 @@ export default function Profile({ username, tag, location, avatar, stats }) {
     <img
       src={avatar}
       alt="User avatar"
+        //  alt={username} ???
       className={styles.avatar}
     />
     <p className={styles.name}> {username} </p>

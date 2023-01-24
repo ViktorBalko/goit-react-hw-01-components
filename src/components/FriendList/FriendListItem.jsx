@@ -8,12 +8,16 @@ export default function FriendsListItem({ avatar, name, isOnline }) {
         className={styles.status}
         style={
           isOnline
-            ? { backgroundColor: 'rgb(2 42 7)' }
+            ? { backgroundColor: 'rgb(19 55 1)' }
             : { backgroundColor: 'rgb(50 2 2)' }
         }
       >
       </span>
-      <img className={styles.avatar} src={avatar} alt="User avatar" width="48" />
+      <img className={styles.avatar}
+        src={avatar}
+        alt="User avatar"
+        //  alt={name} ???
+        width="48" />
       <p className={styles.name}>{name}</p>
     </li>
   );

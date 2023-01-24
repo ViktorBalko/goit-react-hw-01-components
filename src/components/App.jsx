@@ -22,8 +22,8 @@ export const App = () => {
       avatar={user.avatar}
       username={user.username}
       tag={user.tag}
-        location={user.location}
-        stats={user.stats}
+      location={user.location}
+      stats={user.stats}
       // followers={user.stats.followers}
       // views={user.stats.views}
       // likes={user.stats.likes}
