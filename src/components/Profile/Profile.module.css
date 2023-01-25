@@ -1,76 +1,76 @@
 .profile {
-    width: 350px;
-    height: 100%;
-    margin: 0 auto;
-    padding-top: 30px;
-    box-shadow: 0px 9px 36px 8px rgba(34, 62, 85, 0.643);
-    border-radius: 5px;
-    border: 1px solid #38588c4d;
-    background: linear-gradient(rgba(1, 60, 108, 0.839), black 50%, rgba(1, 60, 108, 0.833));
-    margin-bottom: 50px;
-  }
-  
+  width: 350px;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 30px;
+  box-shadow: 0px 9px 36px 8px rgba(34, 62, 85, 0.643);
+  border-radius: 5px;
+  border: 1px solid #38588c4d;
+  background: linear-gradient(rgba(1, 60, 108, 0.839), black 50%, rgba(1, 60, 108, 0.833));
+  margin-bottom: 50px;
+}
+
 .description {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-  }
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
 .avatar {
-    width: 150px;
-    margin: auto;
-    margin-bottom: 9px;
-  }
-  
+  width: 150px;
+  margin: auto;
+  margin-bottom: 9px;
+}
+
 .name {
-    font-size: 26px;
-    font-weight: 500;
-    line-height: 1.62;
-    letter-spacing: 0.06em;
-    margin-bottom: 8px;
-    color: #ebdbdb;
-  }
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.06em;
+  margin-bottom: 8px;
+  color: #ebdbdb;
+}
 .tag {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.16;
-    color: #ebdbdb;
-    margin-bottom: 15px;
-  }
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.16;
+  color: #ebdbdb;
+  margin-bottom: 15px;
+}
 .location {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.12;
-    color: #ebdbdb;
-    margin-bottom: 40px;
-  }
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.12;
+  color: #ebdbdb;
+  margin-bottom: 40px;
+}
 .statsList {
-    width: 100%;
-    display: flex;
-    padding-left: 0;
-    margin-top: 0;
-    
-  }
+  width: 100%;
+  display: flex;
+  padding-left: 0;
+  margin-top: 0;
+}
 .statsItem {
-    width: 120px;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    border: 1px solid #cbcbcc;
-    background-color: #0101016f;
-  }
+  width: 120px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid #cbcbcc;
+  background-color: #0101016f;
+}
 .label {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.16;
-    color: #ebdbdb;
-    margin-bottom: 5px;
-  }
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.16;
+  color: #ebdbdb;
+  margin-bottom: 5px;
+}
 .quantity {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.18;
-    color: #ebdbdb;
-  }
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.18;
+  color: #ebdbdb;
+}

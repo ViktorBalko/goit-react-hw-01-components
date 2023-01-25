@@ -1,54 +1,54 @@
 .statistics {
-    width: 400px;
-    height: 200px;
-    margin: 0 auto 50px auto;
-    box-shadow: 0px 3px 9px 6px rgba(34, 62, 85, 0.643);
-    border-radius: 5px;
-    border: 1px solid #38588c4d;
-    background: linear-gradient(rgba(1, 60, 108, 0.839), black 50%, rgba(1, 60, 108, 0.833));
+  width: 400px;
+  height: 200px;
+  margin: 0 auto 50px auto;
+  box-shadow: 0px 3px 9px 6px rgba(34, 62, 85, 0.643);
+  border-radius: 5px;
+  border: 1px solid #38588c4d;
+  background: linear-gradient(rgba(1, 60, 108, 0.839), black 50%, rgba(1, 60, 108, 0.833));
 }
 
 .title {
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 1.62;
-    letter-spacing: 0.06em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-transform: uppercase;
-    color: #ebdbdb;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.06em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #b2bec7c8;
 }
 
 .statList {
-    display: flex;
-    width: 100%;
-    padding: 0;
+  display: flex;
+  width: 100%;
+  padding: 0;
 }
 
 .item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 80px;
-    height: 80px;
-    border: 1px solid #cbcbcc;
-    background-color: rgb(21, 21, 21);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border: 1px solid #b2bec7c8;
+  background-color: rgb(21, 21, 21);
 }
 
 .label {
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.62;
-    letter-spacing: 0.06em;
-    color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.06em;
+  color: #b2bec7c8;
 }
 
 .percentage {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.62;
-    letter-spacing: 0.06em;
-    color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.06em;
+  color: #b2bec7c8;
 }

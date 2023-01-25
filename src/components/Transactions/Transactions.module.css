@@ -1,58 +1,56 @@
 .transactionHistory {
-    width: 1000px;
-    height: 400px;
-    margin: 50px auto 0px auto;
-    border-radius: 5px;
-    border: none;
-    background: rgba(1, 60, 108, 0.925);
-    table-layout: fixed;
-    border-collapse: collapse;
-    box-shadow: 0px 3px 9px 9px rgba(34, 62, 85, 0.643);
+  width: 1000px;
+  height: 400px;
+  margin: 50px auto 0px auto;
+  border-radius: 5px;
+  border: none;
+  background: rgba(1, 60, 108, 0.925);
+  table-layout: fixed;
+  border-collapse: collapse;
+  box-shadow: 0px 3px 9px 9px rgba(34, 62, 85, 0.643);
 }
 
 .title {
-    height: 50px;
-    text-align: center;
-    background: linear-gradient(rgba(1, 60, 108, 0.725), black 50%, rgba(1, 60, 108, 0.725));
-    color: #ebdbdb;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.03;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+  height: 50px;
+  text-align: center;
+  background: linear-gradient(rgba(1, 60, 108, 0.725), black 50%, rgba(1, 60, 108, 0.725));
+  color: #b2bec7c8;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.03;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 td,
 th {
-    border: 1px solid #cbcbcc;
-    border-top: 1px solid transparent;
-    border-bottom: 1px solid transparent;
-    border: 1px solid #ebdbdb;
+  border: 1px solid #b2bec7c8;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  border: 1px solid #b2bec7c8;
 }
 
 tr:hover td {
-    background: linear-gradient(#6c0301b9, black 50%, #6c0301b9);
-    color: #ebdbdb;
+  background: linear-gradient(#6c0301b9, black 50%, #6c0301b9);
+  color: #b2bec7c8;
 }
 
 .table {
-    text-align: center;
-    height: 50px;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.03;
-    letter-spacing: 0.03em;
-    color: #ebdbdb;
-    cursor: pointer;
-    
+  text-align: center;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.03;
+  letter-spacing: 0.03em;
+  color: #b2bec7c8;
+  cursor: pointer;
 }
 
 .table:nth-child(2n) {
-    background: linear-gradient(rgba(1, 60, 108, 0.725), black 50%, rgba(1, 60, 108, 0.725));
-    
+  background: linear-gradient(rgba(1, 60, 108, 0.725), black 50%, rgba(1, 60, 108, 0.725));
 }
 
 .type {
-    text-transform: uppercase;
-    justify-content: center;
+  text-transform: uppercase;
+  justify-content: center;
 }
