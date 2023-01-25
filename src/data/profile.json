@@ -1,11 +1,11 @@
 {
-  "username": "Harry Potter",
-  "tag": "ac/dcPot",
-  "location": "Godric’s Hollow, Southwest England",
-  "avatar": "https://cdn-icons-png.flaticon.com/512/3076/3076287.png",
-  "stats": {
-    "followers": 5603,
-    "views": 4827,
-    "likes": 1308
-  }
+ "username": "Harry Potter",
+ "tag": "ac/dcPot",
+ "location": "Godric’s Hollow, Southwest England",
+ "avatar": "https://cdn-icons-png.flaticon.com/512/3076/3076287.png",
+ "stats": {
+  "followers": 5603,
+  "views": 4827,
+  "likes": 1308
+ }
 }

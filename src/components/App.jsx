@@ -13,18 +13,18 @@ import TransactionHistory from './Transactions/TransactionHistory.jsx';
 import transactions from '../data/transactions.json';
 
 export const App = () => {
-  return (
-    <div className={mainStyle.containerStyle}>
-      <Profile
-        avatar={user.avatar}
-        username={user.username}
-        tag={user.tag}
-        location={user.location}
-        stats={user.stats}
-      />
-      <FriendList friends={friends} />;
-      <Statistics title="Upload stats" stats={statisticsData} />
-      <TransactionHistory items={transactions} />;
-    </div>
-  );
+ return (
+  <div className={mainStyle.containerStyle}>
+   <Profile
+    avatar={user.avatar}
+    username={user.username}
+    tag={user.tag}
+    location={user.location}
+    stats={user.stats}
+   />
+   <FriendList friends={friends} />;
+   <Statistics title="Upload stats" stats={statisticsData} />
+   <TransactionHistory items={transactions} />;
+  </div>
+ );
 };

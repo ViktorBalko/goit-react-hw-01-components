@@ -1,51 +1,51 @@
 .friendList {
-  margin: 30px auto;
-  width: 330px;
-  padding-left: 0;
+ margin: 30px auto;
+ width: 330px;
+ padding-left: 0;
 }
 
 .item {
-  padding: 15px 15px;
-  box-shadow: 0px 3px 9px 6px rgba(34, 62, 85, 0.643);
-  border-radius: 3px;
-  background: linear-gradient(rgba(1, 60, 108, 0.839), black 50%, rgba(1, 60, 108, 0.833));
-  list-style: none;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  border: 1px solid #38588c4d;
-  transition: all 0.8s;
+ padding: 15px 15px;
+ box-shadow: 0px 3px 9px 6px rgba(34, 62, 85, 0.643);
+ border-radius: 3px;
+ background: linear-gradient(rgba(1, 60, 108, 0.839), black 50%, rgba(1, 60, 108, 0.833));
+ list-style: none;
+ display: flex;
+ align-items: center;
+ cursor: pointer;
+ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ border: 1px solid #38588c4d;
+ transition: all 0.8s;
 }
 
 .item:hover {
-  transform: scale(1.1);
-  background: linear-gradient(#420100b9, black 30%, #420100b9);
-  transition: all 0.8s;
+ transform: scale(1.1);
+ background: linear-gradient(#420100b9, black 30%, #420100b9);
+ transition: all 0.8s;
 }
 
 .item:not(:last-child) {
-  margin-bottom: 20px;
+ margin-bottom: 20px;
 }
 
 .status {
-  content: '';
-  width: 20px;
-  height: 20px;
-  border-radius: 50px;
-  margin-right: 10px;
-  border: 1px solid rgba(103, 101, 101, 0.838);
+ content: '';
+ width: 20px;
+ height: 20px;
+ border-radius: 50px;
+ margin-right: 10px;
+ border: 1px solid rgba(103, 101, 101, 0.838);
 }
 
 .avatar {
-  width: 70px;
-  margin-right: 10px;
+ width: 70px;
+ margin-right: 10px;
 }
 
 .name {
-  font-size: 22px;
-  font-weight: 500;
-  line-height: 1.62;
-  letter-spacing: 0.01em;
-  color: #b2bec7c8;
+ font-size: 22px;
+ font-weight: 500;
+ line-height: 1.62;
+ letter-spacing: 0.01em;
+ color: #b2bec7c8;
 }
